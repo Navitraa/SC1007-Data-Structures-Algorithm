@@ -1,0 +1,74 @@
+
+/* TOPIC 1: HASH TABLE & GRAPH REPRESENTATION */
+1. Hash table 
+    i) Insert key 
+        a) Closed addressing hashing with modulo hash function
+        b) [NEW] Open-addressing hashing using linear probing ***
+        c) [NEW] Open-addressing hashing using quadratic probing
+        d) [NEW] Open-addressing hashing using double hashing
+    ii) search key
+    iii) Delete key 
+        a) Delete key from a closed-addressing hash table
+
+2. ADJ Matrix & ADJ List 
+    i) Convert AdjM -> AdjL
+    ii) Convert AdjL -> AdjM
+
+3. Degree of vertex
+    i) Calculate the degree of each vertex in an undirected graph, taking adjM in input parameter
+    ii) Calculate the degree of each vertex in an undirected graph, taking adjL in input parameter
+
+
+4. Different types of graphs
+    i) Undirected Graph
+    ii) Directed Graph
+    iii) Weighted Graph
+    iv) Complete graph
+
+
+/* TOPIC 2: GRAPH TRAVERSE */
+1. Breadth-first search
+    i) Print out the vertices in order of visiting ✅
+    ii) [NEW] BFS using recursive algorithm ✅
+
+2. Depth-first search
+    i) Print out the vertices in order of visiting ✅
+    ii) Write the DFS algorithm using recursive function ✅
+    -> NOTE: 0/1-based indexing
+
+3. Perform BFS/ DFS for directed, undirected graphs 
+
+4. Sample questions 
+    a) What is the shortest distance between two vertices in an undirected graph?
+    -> use BFS
+    b) Is the given directed graph strongly connected?
+    c) Is the given undirected graph connected?
+    d) [NEW] !! 
+
+/* TOPIC 3: BACKTRACKING */
+1. Colouring graph 
+    i) print one solution ✅
+    ii) count the total number of possible solutions ✅
+
+2. nQueens
+    i) print one solution ✅
+    ii) count the total number of possible solutions ✅
+
+/* TOPIC 4: DYNAMIC PROGRAMMING */
+1. Any recursive function (eg. fibonacci sequence)
+    i) recursive approach (non-memoised) ✅
+    ii) top-down approach ✅
+    iii) bottom-up approach ✅
+    -> learn to create and allocate memory for array (static, dyanamic)
+2. Rod-cutting problem
+    i) Calculate maximum revenue ✅
+    ii) Print list of lengths of cutting pieces (in ascending order) achieved in the optimal solution ***
+    iii) Calculate number of pieces in optimal solution
+    -> [NEW] ascending/ descending order 
+3. 0/1 Knapsack problem
+    i)  Find the largest value of items that fits in the knapsack (using bottom-up, top-down and recursive methods) ***
+    ii) [NEW] Print list of size/value/ number of items (in ascending order) that fit in the knapsack ***
+
+
+
+
